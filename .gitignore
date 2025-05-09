@@ -1,0 +1,9 @@
+brain_mri_dataset
+*.csv
+*.txt
+kaggle_3m_cleaned
+kaggle_3m_cleaned.zip
+test*
+*.swp
+.ipynb*
+
