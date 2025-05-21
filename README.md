@@ -3,9 +3,9 @@
 ## 1. Overview
 This project focuses on binary segmenting brain tumors in MRI using a deep learning approach. The dataset consists of brain MR images and corresponding manual FLAIR abnormality segmentation masks from 110 patients with lower-grade gliomas. The model is based on a U-Net architecture with a MobileNet_v2 backbone, optimized for efficient segmentation performance.
 
-| Patient - 7881                                     | Patient - 4941                                       |
-|----------------------------------------------------|------------------------------------------------------|
-| <img src="./images/gifs/7881.gif" alt="overview"/> | <img src="./images/gifs/4941.gif" alt="overview-2"/> |
+| Patient - 7881                                    | Patient - 4941                                       | Patient - A5TW                                       | Patient - A61B                                      |
+|---------------------------------------------------|------------------------------------------------------|------------------------------------------------------|-----------------------------------------------------|
+| <img src="./images/gifs/7881.gif" alt="overview"/> | <img src="./images/gifs/4941.gif" alt="overview-2"/> | <img src="./images/gifs/A5TW.gif" alt="overview-3"/> | <img src="./images/gifs/A61B.gif" alt="overview-4"/> |
 
 ## 2. Proposed Method
 The segmentation model employs a U-Net architecture with a MobileNet_v2 backbone pretrained on ImageNet. The loss function combines Binary Cross-Entropy (BCE) Loss and Dice Loss to optimize segmentation accuracy, with the Dice Score as the primary evaluation metric.
