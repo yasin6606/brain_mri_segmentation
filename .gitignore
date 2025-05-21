@@ -1,4 +1,5 @@
 brain_mri_dataset
+.idea
 *.csv
 *.txt
 kaggle_3m_cleaned
