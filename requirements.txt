@@ -1,0 +1,10 @@
+torch==2.6.0+cu124
+tqdm==4.67.1
+torchvision==0.21.0+cu124
+segmentation_models_pytorch==0.5.0
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.9.2
+torchmetrics==1.2.0
+pillow==10.2.0
+imageio==2.37.0
